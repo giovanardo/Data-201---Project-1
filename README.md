@@ -3,7 +3,7 @@
 
 This project evaluates classification models to predict whether a breast mass is **malignant** or **benign** from measurements of the mass. Malignant is the positive class.
 
-The most serious error in this project is a **false negative**: classifying a malignant mass as benign, which can delay diagnosis and treatment. Because of this, the analysis focuses on recall and on the trade-off with false positives, not only on accuracy.
+The most serious error in this project is a **false negative**: classifying a malignant mass as benign can delay diagnosis and treatment. Because of this, the analysis focuses on recall and on the trade-off with false positives, not only on ROC-AUC.
 
 ## Data
 
